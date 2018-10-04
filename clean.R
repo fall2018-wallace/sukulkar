@@ -8,3 +8,5 @@ readStates <- function(states)
     colnames(states) <- c("","","","")
     return(states)
 }
+
+cleanCensus <- readStates(raw_data)
